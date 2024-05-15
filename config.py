@@ -1,15 +1,17 @@
 from pathlib import Path
 
+# Get the directory where the script is located dynamically to avoid errors when generating exe file package
+SCRIPT_DIR = Path(__file__).resolve().parent
 
-ASSETS_DIR = Path("./assets")
+ASSETS_DIR = SCRIPT_DIR / "assets"
 DEFINITIONS_FILE = ASSETS_DIR / "data" / "data.json"
-
 
 APP_STYLESHEET = """
 background-color: #C3FF93;
 font-family: 'Courier New';
 font-size: 12pt;
 """
+
 
 TITLE_STYLESHEET = """
 font-size: 30px;

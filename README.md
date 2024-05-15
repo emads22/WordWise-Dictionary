@@ -12,12 +12,31 @@ WordWise Dictionary is an offline user-friendly desktop GUI application built wi
 2. Ensure Python 3.x is installed.
 3. Install the required dependencies using `pip install -r requirements.txt`.
 4. Users can expand the dictionary by adding more definitions to the `data.json` file as needed.
-5. No additional setup is necessary.
+5. Locate the executable file in the `executable` folder.
+6. No additional setup is necessary.
 
 ## Usage
 1. Run the script using `python wordwise.py`.
 2. Enter a word in the input field and press the "Define" button to search for its definition.
 3. Press the "Clear" button to clear both the input and output fields.
+
+## Creating the Executable File
+Follow these steps to generate an executable file for WordWise Dictionary using PyInstaller:
+
+1. **Navigate to Project Directory**: Open a terminal or command prompt and change directory to the location where your WordWise Dictionary project is saved.
+
+2. **Navigate to Executable Folder**: If you haven't already, create an "executable" folder in the project directory.
+
+3. **Run PyInstaller Command**: Execute the following command in the terminal to create the executable file. Ensure PyInstaller is installed (it will be automatically installed if you run `pip install -r requirements.txt` earlier):
+   ```sh
+   pyinstaller --onefile --windowed --noconsole --add-data "../assets;assets" --icon="../assets/icon/wordwise.ico" "../wordwise.py"
+   ```
+
+4. **Locate the Executable File**: Once the command finishes, locate the generated executable file in the "dist" folder.
+
+5. **Move Executable File**: Move the executable file (`wordwise.exe`) from the "dist" folder to the "executable" folder in the project directory. You can then delete the "build" and "dist" folders along with their contents, as well as the "wordwise.spec" file.
+
+6. **Run the WordWise Application**: Double-click the `wordwise.exe` file to launch the WordWise Dictionary application. It will have the WordWise icon associated with it.
 
 ## Contributing
 Contributions are welcome! Here are some ways you can contribute to the project:

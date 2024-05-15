@@ -4,8 +4,9 @@ from pathlib import Path
 ASSETS_DIR = Path("./assets")
 DEFINITIONS_FILE = ASSETS_DIR / "data" / "data.json"
 
+
 APP_STYLESHEET = """
-background-color: yellow;
+background-color: #C3FF93;
 font-family: 'Courier New';
 font-size: 12pt;
 """
@@ -19,12 +20,12 @@ text-align: center;
 """
 
 BUTTON1_STYLESHEET = """
-background-color: pink;
+background-color: #FFDB5C;
 font-weight: bold;
 """
 
 BUTTON2_STYLESHEET = """
-background-color: orange;
+background-color: #FFAF61;
 font-weight: bold;
 """
 

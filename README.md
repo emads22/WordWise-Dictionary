@@ -12,11 +12,10 @@ WordWise Dictionary is a user-friendly desktop application built with PyQt6 that
 2. Ensure Python 3.x is installed.
 3. Install the required dependencies using `pip install -r requirements.txt`.
 4. Users can expand the dictionary by adding more definitions to the `data.json` file as needed.
-5. Locate the executable file in the `exe` folder generated from PyInstaller.
-6. No additional setup is necessary.
+5. No additional setup is necessary.
 
 ## Usage
-1. Run the script using `python main.py`.
+1. Run the script using `python wordwise.py`.
 2. Enter a word in the input field and press the "Define" button to search for its definition.
 3. Press the "Clear" button to clear both the input and output fields.
 

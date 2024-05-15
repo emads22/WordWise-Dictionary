@@ -29,6 +29,6 @@ font-weight: bold;
 """
 
 SIGNATURE_STYLESHEET = """
-font-family: 'Arial';
+font-family: 'Verdana';
 font-size: 10pt;
 """

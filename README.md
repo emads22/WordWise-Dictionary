@@ -1,7 +1,7 @@
 # WordWise Dictionary
 
 ## Overview
-WordWise Dictionary is a user-friendly desktop application built with PyQt6 that provides a convenient way to look up definitions of words. Whether you're a student, professional, or language enthusiast, WordWise Dictionary helps you quickly find the meanings of unfamiliar words, enhancing your vocabulary and comprehension.
+WordWise Dictionary is an offline user-friendly desktop GUI application built with PyQt6 that provides a convenient way to look up definitions of words. Whether you're a student, professional, or language enthusiast, WordWise Dictionary helps you quickly find the meanings of unfamiliar words, enhancing your vocabulary and comprehension.
 
 ## Features
 - **Search Definitions**: Users can enter a word in the text input field and press the "Define" button to search for its definition.

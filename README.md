@@ -7,6 +7,10 @@ WordWise Dictionary is an offline user-friendly desktop GUI application built wi
 - **Search Definitions**: Users can enter a word in the text input field and press the "Define" button to search for its definition.
 - **Clear Functionality**: Users can clear both the input and output fields by pressing the "Clear" button.
 
+## Technologies Used
+- **PyQt6**: A set of Python bindings for the Qt application framework.
+- **pyinstaller**: A library for bundling Python applications into standalone executables.
+
 ## Setup
 1. Clone the repository.
 2. Ensure Python 3.x is installed.
